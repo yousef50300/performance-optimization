@@ -32,4 +32,11 @@
      Can use Client Credentials Grant in Machine To 
      Machine Credentials Like Cron Job
 </code></pre>
+<h2 id="what-is-the-scopes-">What Is The Scopes :</h2>
+<pre><code>      First thing they are a different between scopes&amp;roles
+      roles governs the access control of a user when using 
+      the web application directly .
+      while Oauth-2 scope governs the access to the API 
+      resources for an external client on behalf of a user
+</code></pre>
 
