@@ -22,4 +22,14 @@
       4- Implicit Grant
       5- Resource Owner Password Credentials Grant
 </code></pre>
+<h2 id="how-can-we-decide-which-type-of-grant-to-use-">How Can We Decide Which Type Of Grant To Use :</h2>
+<pre><code>     This Based On What is The Type Of Client 
+     First Party Or Third Party. If The Client is Third
+     Party We Must Use Authorization code grant Based On
+     Client Id &amp; Client Secret &amp; UserName &amp; Password 
+     But If The client Is Trusted Or First Party 
+     We Can Depend On Password Grant ..... Finally We 
+     Can use Client Credentials Grant in Machine To 
+     Machine Credentials
+</code></pre>
 
